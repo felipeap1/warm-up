@@ -6,4 +6,4 @@ f2 :: (a -> a) -> a -> a --It is given an initial value and a function which, gi
 f2 f x = f (f (f x)) --Applies a function over a value "x". Then, the function is applied over the result of the previous step. Finally, this is done once more.
 
 f3 :: (a -> b) -> (a -> c) -> a -> (b, c) -- It is given two functions and an initial value and returns a list 
-f3 f h x= (f x, h x) --It returns a list with the results of applying both functions to the initial value separately
+f3 f h x= (f x, h x) --It returns a list with the results of applying both functions to the initial value separately+
